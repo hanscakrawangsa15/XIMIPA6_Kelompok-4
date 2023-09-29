@@ -1,0 +1,300 @@
+html{
+    scroll-behavior: smooth;
+}
+head{
+    position: relative;
+}
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    overflow-x: hidden;
+    color: white;
+    background-color: #2C353C;
+    text-align: center;
+    margin:0;
+    position: relative;
+    padding: 0;
+    animation: transitionIn 1s;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-20deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+a { 
+    transition: all 0.3s ease; 
+    text-decoration: none;
+}
+
+#gifhome {
+    width: 2000px;
+    height: 600px;
+}
+
+.quote{
+    font-family:'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    background-color:darkslategray;
+    color: aliceblue;
+    width: 660px;
+    height: 445px;
+    position:relative;
+    text-align:left;
+    margin: auto;
+    padding: 0;
+    margin-top: -40px;
+    border-radius: 20px;
+    backdrop-filter: blur(3px);
+    
+ }
+.header4{
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+#carouselgambar{
+    width: 400px;
+    height: 200px;
+    left: 10px;
+    border-radius: 20px;
+}
+#warna{
+    background-color:darkslategray;
+}
+#maps{
+    width: 2000px;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.2)
+
+}
+.carousel-item{
+    width: 380px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    right: -20px;
+    border-radius: 20px;
+    
+}
+.carousel-item1{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    right: -100px;
+    
+}
+
+.carousel-item2{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    right: -100px;
+    
+}    
+    
+.carousel2{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    margin-top: -450px;
+    margin-left: 1400px;
+}
+.carousel3{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+.carousel1{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    margin-top: -450px;
+    margin-left: 750px;
+}
+.carousel4{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    margin-left: 1100px;
+    margin-top: -450px;
+}
+.carousel0{
+    width: 400px;
+    height: 400px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    margin-left: 35px;
+}
+.gado{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left:500px;
+    margin-right: 500px;
+    text-indent: 50px;
+    font-size: larger;
+}
+#saman{
+    width:500px;
+    height: 400px;
+    position: relative;
+    margin-right: 100px;
+}
+.tari{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:larger;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-indent: 50px;
+}
+h3, h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+.profile{
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+.pr{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    margin-left: 20px;
+}
+.pr2{
+    background-color:darkslategray;
+    color: aliceblue;
+    width: 655px;
+    height: 400px;
+    position:relative;
+    text-align:left;
+    margin: auto;
+    padding: 0;
+    margin-top:50px
+}
+.itemab{
+    width: 900px;
+    height: 500px;
+    animation-duration: 0,5s;
+    transition-delay: 0,5s;
+    position: relative;
+    right: -20px;
+}
+.pquote{
+    margin-left: 30px;
+}
+h4{
+    margin-top: 40px;
+}
+#habibie{
+    margin-right: 30px;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+#borobudur{
+    margin-right: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+@keyframes slider{
+    0%{
+        left: 0;
+    }
+    20%{
+        left: 0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+
+}
+.gambarab{
+    width: 1200px;
+    height: 600px;
+    margin-left: 380px;
+    margin-right: 400px;
+    align-items: center;
+}
+.hab{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size:60px;
+}
+.pab{
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:30px;
+    text-indent: 30px;
+}
+.banner{
+    position: relative;
+    margin-top: -380px;
+}
+.haha{
+    font-size: x-large;
+}
+.ha{
+    font-size: 70px;
+}
+.hahaha{
+    font-size: x-large;
+}
